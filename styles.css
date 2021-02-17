@@ -1,0 +1,18 @@
+html {
+    background-color: gray;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+.nav-item, .nav-btn {
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+
+.navbar-items {
+    margin-right: 25px;
+}
+
