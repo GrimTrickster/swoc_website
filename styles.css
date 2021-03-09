@@ -1,14 +1,16 @@
-html {
-    background-color: gray;
+body {
+    text-align: center;
 }
 
 .navbar-brand {
     margin-left: 50px;
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .nav-item, .nav-btn {
     margin-right: 25px;
+    margin-left: 25px;
     font-size: 1.2rem;
 }
 
@@ -16,3 +18,96 @@ html {
     margin-right: 25px;
 }
 
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+/* HOME SCREEN */
+
+.home-screen {
+    background-color: #1565C0;
+    padding-bottom: 8%;
+}
+
+.home-headings {
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.home-h1 {
+    font-size: 5rem;
+    content: 'SWOC';
+    font-weight: 800;
+}
+
+.home-h1:hover .content {
+    display: none;
+}
+
+.home-h1:hover .new-content:after {
+    content: "Swipe Vocabulary";
+}
+
+/*Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 3%;
+}
+
+.download-btns {
+    margin: auto;
+    display: inline;
+}
+
+
+/* Features */
+
+.features-screen {
+    margin: 200px auto 150px;
+}
+
+.features-screen .col {
+    align-items: center;
+    padding: 0 15px 0;
+}
+
+.features-icon {
+    align-items: center;
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+
+.features-screen h3 {
+    padding-bottom: 15px;
+}
+
+.features-screen p {
+    color: #8f8f8f;
+}
+
+
+/* ABOUT */
+
+.about-screen {
+    background-color: #1565C0;
+}
+
+.carousel-item {
+    margin: 75px auto 25px;
+}
+
+.carousel-avatar {
+    font-size: 10rem;
+    padding-bottom: 15px;
+}
+
+.carousel-item h3 {
+    font-size: 2rem;
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
